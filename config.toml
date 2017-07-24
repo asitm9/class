@@ -1,0 +1,28 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "A Asit Mahato"
+theme = "hugo-xmin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+
+[params]
+    #description = "A website built through Hugo and blogdown."
+    #footer = "&copy; [Asit Mahato] 2017 | "
+#[Github](https://github.com/asitm9)
